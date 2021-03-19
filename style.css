@@ -42,6 +42,11 @@ h2 {
 
 .banner h1 {
     font-size: 64px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, .5);
+}
+
+.banner h2 {
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, .5);
 }
 
 .container {
@@ -68,6 +73,7 @@ h2 {
     font-size: 18px;
     line-height: 1.6;
     font-family: 'Montserrat', sans-serif;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, .5);
 }
 
 a {
