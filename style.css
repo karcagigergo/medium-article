@@ -1,0 +1,135 @@
+body {
+    color: #494949;
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: lighter;
+    font-family: 'Lora', serif;
+    margin: 0;
+    background-image: repeating-linear-gradient(284deg, transparent 0px, transparent 1px,rgb(251,251,251) 1px, 
+    rgb(251,251,251) 3px),
+    repeating-linear-gradient(14deg, transparent 0px, transparent 1px,rgb(251,251,251) 1px, 
+    rgb(251,251,251) 3px),
+    linear-gradient(90deg, rgb(222,222,222),rgb(222,222,222));
+}
+
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    color: #000000;
+    font-weight: normal;
+}
+
+#design-steps {
+    color:white;
+}
+
+.banner {
+    background-image: url(https://source.unsplash.com/HONJP8DyiSM/1000x500);
+    background-size: cover;
+    color: white;
+    padding: 120px 0;
+}
+
+.banner p {
+    font-size: 22px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.banner h1 {
+    font-size: 64px;
+}
+
+.container {
+    width: 700px;
+    margin: 50px auto;
+}
+
+.header {
+    width: 700px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.link-generic {
+    background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+    color: #636363;
+    font-weight: lighter;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.list-link {
+    color: white;
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #4352A1;
+}
+
+a:hover {
+    background-image: linear-gradient(to bottom, #7DFFB3, #7DFFB3);
+}
+
+.white-card {
+    background-color: white;
+    box-shadow: 10px 10px 10px 0px rgb(0 0 0 / 10%);
+    padding: 45px;
+    margin: 30px 0px;
+    text-align: justify;
+    border-radius: 8px;
+}
+
+ol {
+    text-align: left;
+    list-style-position: inside;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+@media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+        width: 700px;
+    }
+}
+
+@media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+        width: 500px;
+    }
+    .header {
+        width: 500px;
+    }
+    .header h1 {
+        font-size: 20px;
+    }
+    .header p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+        width: 300px;
+    }
+    .header h1 {
+        font-size: 20px;
+    }
+    .header p {
+        font-size: 16px;
+    }
+    .header {
+        width: 300px;
+    }
+}
